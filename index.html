@@ -4,27 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css" /> 
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.5.3/dist/css/ionicons.min.css">
-
-  <title>Elias Adam | Website</title>
+  <title>My Website</title>
 </head>
 <body>
-    <nav>
-      <h1>Elias Adam</h1>
-      <ul class="nav-ul">
-        <li><a class="nav-link" href="#about">About</a></li>
-        <li><a class="nav-link" href="#project">Projects</a></li>
-        <li><a  class="nav-link" href="#contact">Contact</a></li>
+  <!-- <header>
+    <nav class="navbar">
+      <a href="#" class="name-branding">Elias Adam</a>
+      <ul class="nav-menu" id="nav-Menu">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+        <li class="nav-item"><a  class="nav-link" href="#contact">Contact</a></li>
       </ul>
-      <div class="burger-menu" id="burger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
       </div>
     </nav>
+  </header> -->
 
+  <header>
+    <div class="container"> 
+        <nav class="navbar">
+          <a href="#" class="nav-branding">DEV.</a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+     </div>
+   </header>
+  
 
   <main class="intro-content">
     <h2>About Me</h2>
@@ -37,11 +59,9 @@
       with a diverse and well-rounded skill set. I am enthusiastic about contributing my expertise to 
       creating innovative and user-friendly web solutions.
     </p>
-    <p id="toggleText">
-      I have passion for software engineer as I have worked in the past and now looking to go back to it. Joining Founders and coders would give a great opportunity to achieve my goal.
-    </p>
+    
   </main>
-  <button type="button" onclick="toggle('toggleText')">Toggle about me pragraph</button>
+
   <section>
     <h2>Projects</h2>
     <ul class="project-list">
