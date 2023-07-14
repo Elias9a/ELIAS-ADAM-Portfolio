@@ -68,27 +68,94 @@ a {
   background-color: white;
 }
 
-.project-list, 
-.repo-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.bio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+  margin: 3rem 0;
 }
 
-.project-list a {
-  color: #333;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s ease;
+
+.bio-pic-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+
 }
 
-li {
-  margin-bottom: 0.5em;
-  list-style: none;
+.bio-pic {
+  width: 25rem;
+  height: 30rem;
+  border-radius: 25rem;
+  align-self: center;
 }
 
-.project-list a:hover {
-  color: #ff7f50;
+.bio-content {
+  width: 55%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 15px 2px #5c5c61;
+  padding: 1.5rem;
+}
+
+h2 {
+  padding-left: 2rem;
+  font-weight: 900;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 2rem;
+  font-family: auto;
+  line-height: 3rem;
+}
+
+.project-section {
+  gap: 1.4rem;
+  padding: 32px 0;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-wrapper {
+  width: 31%;
+  border-radius: 0.3rem;
+  box-shadow: 0px 2px 15px 2px #5c5c61;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+.project-description {
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.project-link {
+  color: black;
+  font-size: 1rem;
+}
+
+.project-link:hover {
+  color:#4756df;
+}
+
+
+.project-img {
+  width: 80%;
+  height: 62%; 
 }
 
 .contact {
@@ -96,13 +163,6 @@ li {
   justify-content: center;;
   align-content: center;
   flex-direction: column;
-}
-.img-project {
-  width: 60%;
-  margin: 0 20%;
-  height: auto;
-  align-self: center;
-  
 }
 
 footer {
@@ -113,7 +173,7 @@ footer {
   margin-top: auto;
 }
 
-@media(max-width:1024px) {
+@media screen and (max-width: 768px) {
 
   .burger-wrapper {
     display: flex;
@@ -154,7 +214,20 @@ footer {
   .nav-menu.active {
     left: 0;
   }
+
+  .bio {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bio-content {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  
+  .project-wrapper {
+    width: 90%;
+  }
 }
- 
  
  
