@@ -30,13 +30,13 @@
       <img class="bio-pic" src="./public/profile-pic.png"alt="profile pic" />
     </div>
     <div class="bio-content">
-      <h2>About Me</h2>
+      <h2 class="bio-header">About Me</h2>
       <p>
-        As a highly analytical and methodical developer, actively seeking to upskill and learn know tool to
-        stay update with the tech industry. With a strong focus on front-end development, I possess excellent 
-        developer skills. Throughout my academic and professional journey, I have honed exceptional time 
+        A highly analytical and methodical developer, actively upskill and learning new tools to
+        stay update with the tech industry with a strong focus on front-end development. Possess excellent 
+        developer skills. Throughout my academic and professional journey, honed exceptional time 
         management abilities, enabling me to meet deadlines, solve complex problems, and handle multiple 
-        tasks efficiently. My experience spans across start-up, charity, and private sectors, providing me 
+        tasks efficiently. My experience spans across start-up, charity, and private sectors, provided me 
         with a diverse and well-rounded skill set. I am enthusiastic about contributing my expertise to 
         creating innovative and user-friendly web solutions.
       </p> 
@@ -44,65 +44,84 @@
   </main>
 
   <section class="project-section">
-    <h2 class="project-header">Projects</h2>
+    <h2 class="project-header">Some Of My Projects</h2>
     <div class="project-container">
       <div class="project-wrapper">
-        <img class="project-img" src="./public/gallary.png"alt="Game" />
+        <img class="project-img" src="./public/gallary.png"alt="Gallary" />
         <h1 class="project-title">Gallary</h1>
         <p class="project-description">My experience spans across start-up, charity, and private sectors, providing me 
           with a diverse and well-rounded skill set.</p>
-        <a class="project-link"href="https://elias9a.github.io/galary/">Click here to checkout</a>
+        <a class="project-link"href="https://elias9a.github.io/galary/">Click here to it checkout</a>
       </div>
       <div class="project-wrapper">
-        <img class="project-img" src="./public/movies.png"alt="Game" />
-        <h1 class="project-title">Gallary</h1>
+        <img class="project-img" src="./public/movies.png"alt="movie" />
+        <h1 class="project-title">Movies List</h1>
         <p class="project-description">My experience spans across start-up, charity, and private sectors, providing me 
           with a diverse and well-rounded skill set.</p>
-        <a class="project-link" href="https://elias9a.github.io/Movie-Data/">Click here to checkout</a>
+        <a class="project-link" href="https://elias9a.github.io/Movie-Data/">Click here to it checkout</a>
       </div>
       <div class="project-wrapper">
         <img class="project-img" src="./public/football.png"alt="Game" >
-        <h1 class="project-title">Gallary</h1>
+        <h1 class="project-title">Hobby</h1>
         <p class="project-description">My experience spans across start-up, charity, and private sectors, providing me 
           with a diverse and well-rounded skill set. </p>
-        <a class="project-link" href="https://elias9a.github.io/hobby-project-repo/">Click here to checkout</a>
+        <a class="project-link" href="https://elias9a.github.io/hobby-project-repo/">Click here to it checkout</a>
       </div>
     <div class="project-wrapper">
       <img  class="project-img" src="./public/website.png"alt="Game" >
-      <h1 class="project-title">Gallary</h1>
+      <h1 class="project-title">Portfolio</h1>
       <p class="project-description">My experience spans across start-up, charity, and private sectors, providing me 
         with a diverse and well-rounded skill set. </p>
-      <a class="project-link" href="https://elias9a.github.io/game/">Game</a></li>
+      <a class="project-link" href="https://elias9a.github.io/game/">Click here to it checkout</a></li>
     </div>
   </div>
   </section>
   
   <section class="repos">
-    <h2>github reporsitory</h2>
+    <h2 class="repos-header">Github Reporsitories</h2>
     <ul class="repo-ul">
       <li class="repo-list">
-        <a class="repo-link" href="https://github.com/Elias9a/hobby-project-repo"> Hobby repo</a>
+        <a class="repo-link" href="https://github.com/Elias9a/website"> Portfolio</a>
       </li>
       <li class="repo-list">
-         <a class="repo-link" href="https://github.com/Elias9a/Movie-Data">Movie repo </a>
-        </li>
+        <a  class="repo-link" href="https://github.com/Elias9a/game">Game repo</a>
+      </li>
+      <li class="repo-list">
+        <a class="repo-link" href="https://github.com/Elias9a/Movie-Data">Movie repo </a>
+      </li>
       <li class="repo-list">
         <a class="repo-link" href="https://github.com/Elias9a/galary">Galary repo</a>
       </li>
       <li class="repo-list">
-        <a  class="repo-link" href="https://github.com/Elias9a/game">Game repo</a>
+        <a class="repo-link" href="https://github.com/Elias9a/hobby-project-repo"> Hobby repo</a>
       </li>
     </ul>
   </section>
 
   <section class="contact">
-    <h2>Contact Me</h2>
-    <p>Email: elias9adam@gmail.com</p>
-    <p>Phone: +447-5534-3022</p>
+    <h2 class="contact-header">Get In Touch With Me</h2>
+    <form action="/submit-form" method="POST">
+      <label for="name">Name:</label>
+      <input class="name-input" type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+    
+      <label for="email">Email:</label>
+      <input class="email-input" type="email" id="email" name="email" placeholder="Enter Your Email" required>
+    
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Enter Your Message" rows="4" required></textarea>
+    
+      <input class="submit-input" type="submit" value="Submit">
+    </form>
   </section>
 
   <footer>
-    <p>&copy; 2023 My Website</p>
+    <div class="social-icons-wrapper">
+      <a class="social-icon" href="#"><span class="fab fa-facebook"></span></a>
+      <a class="social-icon" href="#"><span class="fab fa-twitter"></span></a>
+      <a class="social-icon" href="#"><span class="fab fa-instagram"></span></a>
+      <a class="social-icon" href="#"><span class="fab fa-linkedin"></span></a>
+    </div>
+    <p class="copy-right">&copy; 2023 My Website</p>
   </footer>
 
   <script src="index.js"></script>
