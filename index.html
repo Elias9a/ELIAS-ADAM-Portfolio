@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css" /> 
-  <title>My Website</title>
+  <title>ELIAS ADAM | Portfolio</title>
 </head>
 <body>
   <header>
     <nav class="navbar">
       <a href="#" class="nav-branding">Elias Adam</a>
       <ul class="nav-menu">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#bio">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#project-section">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#repos">Reporsitories</a></li>
         <li class="nav-item"><a  class="nav-link" href="#contact">Contact</a></li>
       </ul>
       <div class="burger-wrapper">
@@ -25,7 +26,7 @@
     </nav>
   </header>
   
-  <main class="bio">
+  <main class="bio" id="bio">
     <div class="bio-pic-wrapper">
       <img class="bio-pic" src="./public/profile-pic.png"alt="profile pic" />
     </div>
@@ -43,7 +44,7 @@
   </div>
   </main>
 
-  <section class="project-section">
+  <section class="project-section" id="project-section">
     <h2 class="project-header">Some Of My Projects</h2>
     <div class="project-container">
       <div class="project-wrapper">
@@ -77,7 +78,7 @@
   </div>
   </section>
   
-  <section class="repos">
+  <section class="repos" id="repos">
     <h2 class="repos-header">Github Reporsitories</h2>
     <ul class="repo-ul">
       <li class="repo-list">
@@ -98,7 +99,7 @@
     </ul>
   </section>
 
-  <section class="contact">
+  <section class="contact" id="contact">
     <h2 class="contact-header">Get In Touch With Me</h2>
     <form action="/submit-form" method="POST">
       <label for="name">Name:</label>
@@ -116,10 +117,12 @@
 
   <footer>
     <div class="social-icons-wrapper">
-      <a class="social-icon" href="#"><span class="fab fa-facebook"></span></a>
-      <a class="social-icon" href="#"><span class="fab fa-twitter"></span></a>
-      <a class="social-icon" href="#"><span class="fab fa-instagram"></span></a>
-      <a class="social-icon" href="#"><span class="fab fa-linkedin"></span></a>
+      <a class="social-icon" href="https://en-gb.facebook.com/"><span class="fab fa-facebook"></span></a>
+      <a class="social-icon" href="https://twitter.com/"><span class="fab fa-twitter"></span></a>
+      <a class="social-icon" href="https://www.instagram.com/"><span class="fab fa-instagram"></span></a>
+      <a class="social-icon" href="https://www.linkedin.com/learning/search?trk=guest_homepage-basic_guest_nav_menu_learning">
+        <span class="fab fa-linkedin"></span>
+      </a>
     </div>
     <p class="copy-right">&copy; 2023 My Website</p>
   </footer>

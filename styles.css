@@ -41,8 +41,8 @@ a {
 }
 
 .nav-link {
-  transition: 0.7s ease-in;
-  font-weight: bold;
+  transition: 0.3s ease-in;
+  font-weight: 550;
   font-size: 1.2rem;
 }
 
@@ -200,12 +200,23 @@ h2 {
   border-radius: 0.4rem;
   height: 4rem;
   align-items: center;
+  transition: 0.3s ease-in;
 }
 
 .repo-link {
   text-decoration: none;
   text-align: center;
-  
+}
+
+.repo-list:hover {
+  background-color:#fff;
+  border: 1px solid #333;
+  color:  #333;
+  cursor: pointer;
+}
+
+.repo-link:hover {
+  color:#333;
 }
 
 .contact {
@@ -239,13 +250,13 @@ input, textarea {
   padding: 1rem;
   color:#fff;
   background-color: #333;
-  font-weight: bold;
-  
+  font-weight: bold; 
 }
 
 .submit-input:hover {
-  background-color: green;
-  border: 2px solid blue;
+  background-color:#fff;
+  border: 2px solid #333;
+  color:  #333;
   cursor: pointer;
 }
 
