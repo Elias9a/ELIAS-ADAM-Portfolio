@@ -136,21 +136,16 @@ p {
   text-align: center;
   padding: 1rem;
   margin: 1rem;
-  height: 28rem;
   text-overflow: none;
-}
-
-.project-description {
-  text-align: center;
-  margin-bottom: 1rem;
-  line-height: 2rem;
-  padding: 0.8rem;
-  font-size: 1rem;
 }
 
 .project-link {
   color: black;
-  font-size: 1rem;
+  font-size: 1.5rem;
+}
+
+.project-title {
+  margin: 1rem 0 1.8rem 0;
 }
 
 .project-link:hover {
@@ -212,12 +207,6 @@ h2 {
   height: 4rem;
   align-items: center;
   transition: 0.3s ease-in;
-}
-
-.repo-list:hover {
-  
-  
-  
 }
 
 .repo-link:hover {
